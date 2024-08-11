@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: rgb(54, 49, 49);
+}
+
+.sariq {
+  width: 500px;
+  height: 600px;
+  background-color: rgba(242, 207, 52, 0.925);
+  margin: 20px auto;
+  position: absolute;
+  margin-left: 450px;
+}
+
+.image img {
+  width: 25px;
+}
+
+.sariq {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 40px;
+}
+
+.image {
+  padding-right: 30px;
+}
+
+.setting {
+  padding-left: 30px;
+}
+
+.past {
+  position: absolute;
+  top: 560px;
+  right: 60px;
+  word-spacing: 20px;
+}
+
+.past a {
+  font-size: 20px;
+  line-height: 20px;
+  color: rgb(111, 109, 109);
+}
+
+.oq {
+  width: 500px;
+  height: 400px;
+  background-color: #fff;
+  position: absolute;
+  top: 150px;
+  left: 500px;
+}
+
+.image2 img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  position: absolute;
+  top: -35px;
+  left: 30px;
+}
+
+input {
+  margin-bottom: 10px;
+  padding-left: 5px;
+  height: 30px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.form button {
+  cursor: pointer;
+  height: 25px;
+  width: 65px;
+  color: #fff;
+  font-size: 10px;
+  line-height: 10px;
+  background-color: rgb(39, 233, 233);
+  border: none;
+  border-radius: 5px;
+}
+
+.form {
+  position: absolute;
+  top: 50px;
+  left: 20px;
+}
+
+form input {
+  border: none;
+}
+
+form hr {
+  width: 440px;
+  opacity: 50%;
+}
+
+form span {
+  opacity: 50%;
+}
+
+.left_right {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
